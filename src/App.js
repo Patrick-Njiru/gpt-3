@@ -1,9 +1,14 @@
 import React from "react";
+import { Article, Brand, Cta, Feature, NavBar } from "./components";
 
 function App() {
   return (
     <div>
-      App
+      <NavBar />
+      <Article />
+      <Brand />
+      <Cta />
+      <Feature />
     </div>
   );
 }
