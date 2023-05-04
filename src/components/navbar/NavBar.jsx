@@ -13,36 +13,32 @@ const Menu = () => (
   </>
 )
 
-// BEM -> Block Element Modifier - CSS naming convention
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
   return (
-    <div className='gpt3__navbar'>
-      <div className='gpt3__navbar-links'>
-        <div className='gpt__navbar-links_logo'>
-          <img src={gpt3} alt='logo' />
-        </div>
-        &emsp;&emsp;&emsp;
-        <div className='gpt3__navbar-links_container'>
+    <div className='navbar'>
+      <div className='navbar-links'>
+        <img src={gpt3} className='navbar-logo' alt='logo' />
+        <div className='navbar-container1'>
           <Menu />
         </div>
       </div>
-      <div className='gpt3__navbar-sign'>
+      <div className='navbar-sign'>
         <p>Sign in</p>
         <button>Sign up</button>
       </div>
-      <div className='gpt3__navbar-menu'>
+      <div className='navbar-menu-sm'>
         {toggleMenu
           ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
         }
         { toggleMenu && (
-          <div className='gpt3__navbar-menu_container scale-up-center'>
-            <div className='gpt3__navbar-menu_container-links'>
+          <div className='navbar-container2 scale-up-center'>
+            <div className='navbar-container2_links'>
               <Menu />
-              <div className='gpt3__navbar-menu_container-links-sign'>
+              <div className='navbar-container2_sign'>
                 <p>Sign in</p>
-                <button>Sign up</button>
+                <button className='navbar-container2_btn'>Sign up</button>
               </div>
             </div>
           </div>
