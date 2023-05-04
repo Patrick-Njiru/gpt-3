@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
-import People from '../../assets/People.png'
-import Ai from '../../assets/Ai.png'
+import people from '../../assets/people.png'
+import ai from '../../assets/ai.png'
 
 const Header = () => {
   return (
@@ -18,12 +18,12 @@ const Header = () => {
           <button type='button'>Get Started</button>
         </div>
         <div className='header-people'>
-          <img src={People} alt='people' width='181.79px' height='38px'/>
+          <img src={people} alt='people' width='181.79px' height='38px'/>
           <p>1600 people requested access a visit in the last 24 hours</p>
         </div>
       </div>
       <div className='header-image'>
-        <img src={Ai} alt='Ai' width='100%' height='100%'/>
+        <img src={ai} alt='Ai' width='100%' height='100%'/>
       </div>
     </div>
   )
