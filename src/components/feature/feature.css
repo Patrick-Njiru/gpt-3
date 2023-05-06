@@ -11,7 +11,6 @@
     max-width: 180x;
     margin-right: 2rem;
 }
-
 .feature-title h1 {
     font-size: 18px;
     font-weight: 800;
@@ -19,7 +18,6 @@
     letter-spacing: -0.04em;
     color: #fff;
 }
-
 .feature-title div {
     width: 38px;
     height: 3px;
@@ -27,12 +25,10 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 0.25rem;
 }
-
 .feature-text {
     flex: 2;
     max-width: 390px;
 }
-
 .feature-text p {
     font-family: var(--font-family);
     font-weight: 500;
@@ -46,13 +42,9 @@
         font-size: 14px;
         line-height: 22px;
     }
-
     .feature-text p {
         font-size: 12px;
         line-height: 20px;
     }
-
-    .feature {
-        margin: 1rem 0;
-    }
+    .feature { margin: 1rem 0; }
 }

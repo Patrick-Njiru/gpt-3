@@ -1,6 +1,4 @@
-.header {
-    display: flex;
-}
+.header { display: flex; }
 .header-content {
     flex: 1;
     display: flex;
@@ -82,8 +80,8 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .header {flex-direction: column;}
-    .header-content { margin: 0 0 3rem;}
+    .header {flex-direction: column; }
+    .header-content { margin: 0 0 3rem; }
 }
 @media screen and (max-width: 650px) {
     .header h1 {
@@ -94,7 +92,7 @@
         font-size: 16px;
         line-height: 24px;
     }
-    .header-people { flex-direction: column;}
+    .header-people { flex-direction: column; }
     .header-people p{ margin: 0;}
     .header input, .header button {
         font-size: 16px;
