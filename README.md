@@ -2,7 +2,7 @@
 
 ## Description
 
-GPT-3 is a front end web application that provides users with extensive information about the GPT 3 AI. I build this application to practice and improve my coding skills as well as show off my coding knowledge.
+GPT-3 is a landing page for a website about GPT 3 AI. 
 <br><br>
 
 <img src="https://i.ibb.co/hZ5rFS8/Screenshot-from-2023-05-25-12-30-34.png" alt="Screenshot-from-2023-05-25-12-30-34" border="0">
