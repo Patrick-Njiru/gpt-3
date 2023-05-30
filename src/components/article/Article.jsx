@@ -4,7 +4,7 @@ import './article.css'
 const Article = ({ imgURL, date, title }) => (
     <div className='article'>
       <div className='article-image'>
-        <img src={imgURL} alt='blog-image' />
+        <img src={imgURL} alt='blog-pic' />
       </div>
       <div className='article-content'>
         <p>{date}</p>
